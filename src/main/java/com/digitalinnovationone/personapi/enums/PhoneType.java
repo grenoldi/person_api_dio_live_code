@@ -14,11 +14,4 @@ public enum PhoneType {
 
     private final String description;
 
-    private PhoneType(String description){
-        this.description = description;
-    }
-
-    public String getDescription() {
-        return description;
-    }
 }

@@ -27,31 +27,4 @@ public class Phone {
 
     @Column(nullable = false)
     private String number;
-
-    /*
-    *   Getters and setters
-    * */
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public PhoneType getType() {
-        return type;
-    }
-
-    public void setType(PhoneType type) {
-        this.type = type;
-    }
-
-    public String getNumber() {
-        return number;
-    }
-
-    public void setNumber(String number) {
-        this.number = number;
-    }
 }
